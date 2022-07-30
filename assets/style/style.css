@@ -147,13 +147,13 @@ h1 {
 /* TERCEIRA SEÇÃO */
 
 .thirdSection {
-    width: 1120px;
+    width: 1100px;
     height: 460px;
     border-radius: 70px;
     margin: auto;
     background-color: #4864c0;
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
     margin-top: 80px;
 }
 
@@ -177,21 +177,22 @@ h1 {
     font-size: 16px;
     line-height: 22px;
     text-align: left;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 /* QUARTA SEÇÃO */
 
 .fourthSection img {
     height: 600px;
-    width: 1120;
+    width: 1100;
     margin: 20px auto;
+    display: flex;
 }
 
 /* QUINTA SEÇÃO - CALCULADORA */
 
 .fifthSection {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 50px auto;
     padding: 0 20px;
     display: flex;
@@ -215,6 +216,14 @@ h1 {
 
 }
 
+#inputValue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
 #inputValue input {
     height: 50px;
     width: 410px;
@@ -235,6 +244,7 @@ h1 {
     height: 15px;
     width: 350px;
     margin-bottom: 15px;
+    
 }
 
 #timeInput {
@@ -329,11 +339,12 @@ h1 {
   
 /*SEXTA SEÇÃO */
   
- .sixthSection {
+.sixthSection {
     height: 180px;
     width: 1140px;
     margin: 0 auto;
     margin: 30px;
+    padding-bottom: 20px;
 }
   
 .sixthSection h3 {
@@ -379,11 +390,11 @@ footer {
 }
   
 .imgRedes {
-    height: 90px;
-    width: 280px;
+    height: 70px;
+    width: 250px;
 }
   
 .imgLogos {
-    height: 102px;
-    width: 590px;
+    height: 90px;
+    width: 500px;
 }
